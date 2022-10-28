@@ -1,0 +1,59 @@
+{
+    "sku": {
+        "name": "Standard_RAGRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/fe0a3c7c-f676-4acb-91ac-89f5008cbba1/resourceGroups/LearnArmTemplate4/providers/Microsoft.Storage/storageAccounts/armtemplatestorage4",
+    "name": "armtemplatestorage4",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": true,
+        "allowSharedKeyAccess": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "services": {
+                "file": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-10-28T23:28:26.0809920Z"
+                },
+                "blob": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-10-28T23:28:26.0809920Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2022-10-28T23:28:25.9247404Z",
+        "primaryEndpoints": {
+            "dfs": "https://armtemplatestorage4.dfs.core.windows.net/",
+            "web": "https://armtemplatestorage4.z13.web.core.windows.net/",
+            "blob": "https://armtemplatestorage4.blob.core.windows.net/",
+            "queue": "https://armtemplatestorage4.queue.core.windows.net/",
+            "table": "https://armtemplatestorage4.table.core.windows.net/",
+            "file": "https://armtemplatestorage4.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus",
+        "statusOfPrimary": "available",
+        "secondaryLocation": "westus",
+        "statusOfSecondary": "available",
+        "secondaryEndpoints": {
+            "dfs": "https://armtemplatestorage4-secondary.dfs.core.windows.net/",
+            "web": "https://armtemplatestorage4-secondary.z13.web.core.windows.net/",
+            "blob": "https://armtemplatestorage4-secondary.blob.core.windows.net/",
+            "queue": "https://armtemplatestorage4-secondary.queue.core.windows.net/",
+            "table": "https://armtemplatestorage4-secondary.table.core.windows.net/"
+        }
+    }
+}

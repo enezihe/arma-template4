@@ -1,0 +1,9 @@
+{
+    "id": "/subscriptions/fe0a3c7c-f676-4acb-91ac-89f5008cbba1/resourceGroups/LearnArmTemplate4",
+    "name": "LearnArmTemplate4",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded"
+    }
+}
